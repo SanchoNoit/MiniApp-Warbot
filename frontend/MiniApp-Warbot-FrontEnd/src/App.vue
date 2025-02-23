@@ -1,3 +1,12 @@
+<script>
+import NavBar from "@/components/navegacion/navbar.vue";
+
+export default {
+  components: { NavBar },
+};
+
+
+// Script de pulgadas a CM
 document.addEventListener('DOMContentLoaded', () => {
     const inputPulgadas = document.getElementById('inputPulgadas');
     const convertirAPulgadasButton = document.getElementById('convertirAPulgadasButton');
@@ -28,3 +37,45 @@ document.addEventListener('DOMContentLoaded', () => {
         inputPulgadas.value = '';
     });
 });
+
+
+</script>
+
+<template>
+  <div class="app-container">
+    <NavBar></NavBar>
+
+    <!-- Conversor Pulgadas -->
+    <main>
+      <div class="container d-flex justify-content-center p-2">
+        <div class="border rounded p-3">
+          <h1>📏 Pulgadas A Cm</h1>
+          <input
+            type="text"
+            id="inputPulgadas"
+            placeholder="Introduca pulgadas..."
+          />
+          <button id="convertirAPulgadasButton">Convertir</button>
+          <ul id="listaResultadosConversionPulgadas"></ul>
+        </div>
+      </div>
+
+      <!-- GIF del GreyKnight -->
+      <div class="container d-flex justify-content-center p-2">
+        <img src="@/assets/GreyKnight.gif" alt="GreyKnight" class="img-fluid" />
+      </div>
+    </main>
+  </div>
+</template>
+
+<style scoped>
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+}
+
+main {
+  flex: 1;
+}
+</style>
