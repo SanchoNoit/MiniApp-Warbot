@@ -5,6 +5,7 @@ import { resolve } from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base:"https://sanchonoit.github.io/MiniApp-Warbot/",
   plugins: [vue()],
   resolve: {
     alias: {
