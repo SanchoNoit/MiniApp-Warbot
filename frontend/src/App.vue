@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       <!-- GIF del GreyKnight -->
       <div class="container d-flex justify-content-center p-2">
-        <img src="@/assets/GreyKnight.gif" alt="GreyKnight" class="img-fluid" />
+        <img src="/public/GreyKnight.gif" alt="GreyKnight" class="img-fluid" />
       </div>
     </main>
   </div>
