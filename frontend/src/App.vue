@@ -1,8 +1,9 @@
 <script>
 import NavBar from "@/components/navegacion/navbar.vue";
+import Footer from "@/components/navegacion/footer.vue";
 
 export default {
-  components: { NavBar },
+  components: { NavBar, Footer },
 };
 
 
@@ -59,13 +60,10 @@ document.addEventListener('DOMContentLoaded', () => {
           <ul id="listaResultadosConversionPulgadas"></ul>
         </div>
       </div>
-
-      <!-- GIF del GreyKnight -->
-      <div class="container d-flex justify-content-center p-2">
-        <img src="/public/GreyKnight.gif" alt="GreyKnight" class="img-fluid" />
-      </div>
     </main>
   </div>
+
+  <Footer></Footer>
 </template>
 
 <style scoped>
