@@ -1,0 +1,23 @@
+{
+  "personajes": [
+    {
+      "name": "Horus Lupercal",
+      "totalHP": 130
+    },
+
+    {
+      "name": "Lord Sanguinius",
+      "totalHP": 100
+    },
+
+    {
+      "name": "Leman Russ",
+      "totalHP": 115
+    },
+
+    {
+      "name": "Roboute Guilliman",
+      "totalHP": 110
+    }
+  ]
+}
