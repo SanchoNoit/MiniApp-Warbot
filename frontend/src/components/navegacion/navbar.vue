@@ -2,7 +2,10 @@
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <font-awesome-icon :icon="['fas', 'jet-fighter']" style="color: #f5c211;" />
+        <font-awesome-icon
+          :icon="['fas', 'jet-fighter']"
+          style="color: #f5c211"
+        />
       </a>
       <button
         class="navbar-toggler"
@@ -18,13 +21,24 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <RouterLink class="nav-link active" aria-current="page" to="/">Home</RouterLink>
+            <RouterLink class="nav-link active" aria-current="page" to="/"
+              >Home</RouterLink
+            >
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link active" to="conversor">Conversor pulgadas</RouterLink>
+            <RouterLink class="nav-link active" to="conversor"
+              >Conversor pulgadas</RouterLink
+            >
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link active" to="listaPartida">Lista de la Partida</RouterLink>
+            <RouterLink class="nav-link active" to="listaPartida"
+              >Lista de la Partida</RouterLink
+            >
+          </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link active" to="battlingSouls"
+              ><font-awesome-icon :icon="['fas', 'khanda']" />BattlingSouls
+            </RouterLink>
           </li>
           <li class="nav-item dropdown">
             <a
